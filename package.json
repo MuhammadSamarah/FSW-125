@@ -1,0 +1,23 @@
+{
+  "name": "FSW-125",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadSamarah/FSW-125.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadSamarah/FSW-125/issues"
+  },
+  "homepage": "https://github.com/MuhammadSamarah/FSW-125#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
