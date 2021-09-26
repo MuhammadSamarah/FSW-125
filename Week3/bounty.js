@@ -1,35 +1,39 @@
 const express = require("express");
 const app = express();
 const { v4: uuidv4 } = require("uuid");
+
 const PORT = 3000;
 
+
 app.use(express.json());
+
 let bountyHunter = [
   {
     firstName: "Dave",
     lastName: "Brings",
     living: true,
-    bountyAmount: 5000,
-    type: "soldier",
+    bountyAmount: 4000,
+    type: "Bubble",
     _id: uuidv4()
   },
   {
     firstName: "Man",
-    lastName: "james",
+    lastName: "Ray",
     living: true,
     bountyAmount: 1000,
-    type: "Human",
+    type: "Humanoid",
     _id: uuidv4()
   },
   {
-    firstName: "lion",
-    lastName: "heart",
+    firstName: "Sinister",
+    lastName: "Slug",
     living: true,
-    bountyAmount: 50000,
-    type: "animal",
+    bountyAmount: 500,
+    type: "Slug",
     _id: uuidv4()
   },
 ];
+
 
 app.get("/bountyHunter", (req, res) => {
   res.send(bountyHunter);
@@ -43,6 +47,7 @@ app.post("/bountyHunter", (req, res) => {
   console.log(bountyHunter);
   res.send(`Successfully added ${newBounty.firstName} to the database`);
 });
+
 
 app.listen(PORT, () => {
   console.log(`App started on port: ${PORT}`);
