@@ -11,13 +11,13 @@ const fruit = [
 {
     type:"orange",
     brand:"naval",
-    price:7,
+    price:3,
     
 },
 {
     type:"grapes",
     brand:"chiquita",
-    price:15,
+    price:13,
     
 },
 {
