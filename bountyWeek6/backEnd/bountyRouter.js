@@ -7,9 +7,9 @@ const app = express()
 let bounty = [
     {
     firstName: "Darth", 
-    lastName: "Vader",
+    lastName: "Vade",
     living: false,
-    bounty:500,
+    bounty:500000,
     type: "sith",
     _id: uuidv4() 
     },
@@ -17,7 +17,7 @@ let bounty = [
     firstName: "Luke",
     lastName: "Skywalker",
     living: true,
-    bounty: 200,
+    bounty: 00,
     type: "Jedi",
     _id: uuidv4()
 }
