@@ -4,21 +4,21 @@ const {v4: uuidv4}= require('uuid');
 const app = express()
 
 let bounty = [
+    {
+        firstName: "Darth", 
+        lastName: "Vader",
+        living: false,
+        bounty: 50000,
+        type: "Sith",
+        _id: uuidv4()
+    },
         {
     firstName: "Luke",
     lastName: "Skywalker",
     living: true,
-    bounty: 10000,
+    bounty: 00,
     type: "Jedi",
      _id: uuidv4()
-},
-        {
-    firstName: "Darth", 
-    lastName: "Vader",
-    living: false,
-    bounty:300,
-    type: "Sith",
-    _id: uuidv4()
 }
 ]
 
